@@ -63,6 +63,13 @@ img.main-page-logo{
 .main-searchbar{
     border: 1px solid black;
 }
+.mt-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 @media(min-width:576px){
     .btn{
         border: none;
@@ -85,5 +92,6 @@ img.main-page-logo{
     .main-searchbar{
         width: 50%;
     }
+    
 
 }
